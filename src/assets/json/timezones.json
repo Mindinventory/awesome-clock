@@ -1,0 +1,1592 @@
+[
+  {
+    "abbr": "AD",
+    "title": "Andorra",
+    "data": ["Europe/Andorra"],
+    "isSelected": false
+  },
+  {
+    "abbr": "AE",
+    "title": "United Arab Emirates",
+    "data": ["Asia/Dubai"],
+    "isSelected": false
+  },
+  {
+    "abbr": "AF",
+    "title": "Afghanistan",
+    "data": ["Asia/Kabul"],
+    "isSelected": false
+  },
+  {
+    "abbr": "AG",
+    "title": "Antigua & Barbuda",
+    "data": ["America/Puerto_Rico", "America/Antigua"],
+    "isSelected": false
+  },
+  {
+    "abbr": "AI",
+    "title": "Anguilla",
+    "data": ["America/Anguilla"],
+    "isSelected": false
+  },
+  {
+    "abbr": "AL",
+    "title": "Albania",
+    "data": ["Europe/Tirane"],
+    "isSelected": false
+  },
+  {
+    "abbr": "AM",
+    "title": "Armenia",
+    "data": ["Asia/Yerevan"],
+    "isSelected": false
+  },
+  {
+    "abbr": "AO",
+    "title": "Angola",
+    "data": ["Africa/Lagos", "Africa/Luanda"],
+    "isSelected": false
+  },
+  {
+    "abbr": "AQ",
+    "title": "Antarctica",
+    "data": [
+      "Antarctica/Casey",
+      "Antarctica/Davis",
+      "Antarctica/Mawson",
+      "Antarctica/Palmer",
+      "Antarctica/Rothera",
+      "Antarctica/Troll",
+      "Antarctica/Vostok",
+      "Pacific/Auckland",
+      "Pacific/Port_Moresby",
+      "Antarctica/McMurdo",
+      "Antarctica/DumontDUrville",
+      "Antarctica/Syowa"
+    ],
+    "isSelected": false
+  },
+  {
+    "abbr": "AR",
+    "title": "Argentina",
+    "data": [
+      "America/Argentina/Buenos_Aires",
+      "America/Argentina/Cordoba",
+      "America/Argentina/Salta",
+      "America/Argentina/Jujuy",
+      "America/Argentina/Tucuman",
+      "America/Argentina/Catamarca",
+      "America/Argentina/La_Rioja",
+      "America/Argentina/San_Juan",
+      "America/Argentina/Mendoza",
+      "America/Argentina/San_Luis",
+      "America/Argentina/Rio_Gallegos",
+      "America/Argentina/Ushuaia"
+    ],
+    "isSelected": false
+  },
+  {
+    "abbr": "AS",
+    "title": "Samoa (American)",
+    "data": ["Pacific/Pago_Pago"],
+    "isSelected": false
+  },
+  {
+    "abbr": "AT",
+    "title": "Austria",
+    "data": ["Europe/Vienna"],
+    "isSelected": false
+  },
+  {
+    "abbr": "AU",
+    "title": "Australia",
+    "data": [
+      "Australia/Lord_Howe",
+      "Antarctica/Macquarie",
+      "Australia/Hobart",
+      "Australia/Melbourne",
+      "Australia/Sydney",
+      "Australia/Broken_Hill",
+      "Australia/Brisbane",
+      "Australia/Lindeman",
+      "Australia/Adelaide",
+      "Australia/Darwin",
+      "Australia/Perth",
+      "Australia/Eucla"
+    ],
+    "isSelected": false
+  },
+  {
+    "abbr": "AW",
+    "title": "Aruba",
+    "data": ["America/Aruba"],
+    "isSelected": false
+  },
+  {
+    "abbr": "AX",
+    "title": "Åland Islands",
+    "data": ["Europe/Mariehamn"],
+    "isSelected": false
+  },
+  {
+    "abbr": "AZ",
+    "title": "Azerbaijan",
+    "data": ["Asia/Baku"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BA",
+    "title": "Bosnia & Herzegovina",
+    "data": ["Europe/Belgrade", "Europe/Sarajevo"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BB",
+    "title": "Barbados",
+    "data": ["America/Barbados"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BD",
+    "title": "Bangladesh",
+    "data": ["Asia/Dhaka"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BE",
+    "title": "Belgium",
+    "data": ["Europe/Brussels"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BF",
+    "title": "Burkina Faso",
+    "data": ["Africa/Abidjan", "Africa/Ouagadougou"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BG",
+    "title": "Bulgaria",
+    "data": ["Europe/Sofia"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BH",
+    "title": "Bahrain",
+    "data": ["Asia/Qatar", "Asia/Bahrain"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BI",
+    "title": "Burundi",
+    "data": ["Africa/Maputo", "Africa/Bujumbura"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BJ",
+    "title": "Benin",
+    "data": ["Africa/Porto-Novo"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BL",
+    "title": "St Barthelemy",
+    "data": ["America/St_Barthelemy"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BM",
+    "title": "Bermuda",
+    "data": ["Atlantic/Bermuda"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BN",
+    "title": "Brunei",
+    "data": ["Asia/Brunei"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BO",
+    "title": "Bolivia",
+    "data": ["America/La_Paz"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BQ",
+    "title": "Caribbean NL",
+    "data": ["America/Kralendijk"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BR",
+    "title": "Brazil",
+    "data": [
+      "America/Noronha",
+      "America/Belem",
+      "America/Fortaleza",
+      "America/Recife",
+      "America/Araguaina",
+      "America/Maceio",
+      "America/Bahia",
+      "America/Sao_Paulo",
+      "America/Campo_Grande",
+      "America/Cuiaba",
+      "America/Santarem",
+      "America/Porto_Velho",
+      "America/Boa_Vista",
+      "America/Manaus",
+      "America/Eirunepe",
+      "America/Rio_Branco"
+    ],
+    "isSelected": false
+  },
+  {
+    "abbr": "BS",
+    "title": "Bahamas",
+    "data": ["America/Nassau"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BT",
+    "title": "Bhutan",
+    "data": ["Asia/Thimphu"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BW",
+    "title": "Botswana",
+    "data": ["Africa/Gaborone"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BY",
+    "title": "Belarus",
+    "data": ["Europe/Minsk"],
+    "isSelected": false
+  },
+  {
+    "abbr": "BZ",
+    "title": "Belize",
+    "data": ["America/Belize"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CA",
+    "title": "Canada",
+    "data": [
+      "America/St_Johns",
+      "America/Halifax",
+      "America/Glace_Bay",
+      "America/Moncton",
+      "America/Goose_Bay",
+      "America/Toronto",
+      "America/Nipigon",
+      "America/Thunder_Bay",
+      "America/Iqaluit",
+      "America/Pangnirtung",
+      "America/Winnipeg",
+      "America/Rainy_River",
+      "America/Resolute",
+      "America/Rankin_Inlet",
+      "America/Regina",
+      "America/Swift_Current",
+      "America/Edmonton",
+      "America/Cambridge_Bay",
+      "America/Yellowknife",
+      "America/Inuvik",
+      "America/Dawson_Creek",
+      "America/Fort_Nelson",
+      "America/Whitehorse",
+      "America/Dawson",
+      "America/Vancouver",
+      "America/Blanc-Sablon",
+      "America/Atikokan",
+      "America/Creston"
+    ],
+    "isSelected": false
+  },
+  {
+    "abbr": "CC",
+    "title": "Cocos (Keeling) Islands",
+    "data": ["Indian/Cocos"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CD",
+    "title": "Congo (Dem. Rep.)",
+    "data": ["Africa/Kinshasa", "Africa/Lubumbashi"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CF",
+    "title": "Central African Rep.",
+    "data": ["Africa/Bangui"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CG",
+    "title": "Congo (Rep.)",
+    "data": ["Africa/Brazzaville"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CH",
+    "title": "Switzerland",
+    "data": ["Europe/Zurich"],
+    "isSelected": false
+  },
+
+  {
+    "abbr": "CK",
+    "title": "Cook Islands",
+    "data": ["Pacific/Rarotonga"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CL",
+    "title": "Chile",
+    "data": ["America/Santiago", "America/Punta_Arenas", "Pacific/Easter"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CM",
+    "title": "Cameroon",
+    "data": ["Africa/Douala"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CN",
+    "title": "China",
+    "data": ["Asia/Shanghai", "Asia/Urumqi"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CO",
+    "title": "Colombia",
+    "data": ["America/Bogota"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CR",
+    "title": "Costa Rica",
+    "data": ["America/Costa_Rica"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CU",
+    "title": "Cuba",
+    "data": ["America/Havana"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CV",
+    "title": "Cape Verde",
+    "data": ["Atlantic/Cape_Verde"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CW",
+    "title": "Curaçao",
+    "data": ["America/Curacao"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CX",
+    "title": "Christmas Island",
+    "data": ["Indian/Christmas"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CY",
+    "title": "Cyprus",
+    "data": ["Asia/Nicosia", "Asia/Famagusta"],
+    "isSelected": false
+  },
+  {
+    "abbr": "CZ",
+    "title": "Czech Republic",
+    "data": ["Europe/Prague"],
+    "isSelected": false
+  },
+  {
+    "abbr": "DE",
+    "title": "Germany",
+    "data": ["Europe/Zurich", "Europe/Berlin", "Europe/Busingen"],
+    "isSelected": false
+  },
+  {
+    "abbr": "DJ",
+    "title": "Djibouti",
+    "data": ["Africa/Djibouti"],
+    "isSelected": false
+  },
+  {
+    "abbr": "DK",
+    "title": "Denmark",
+    "data": ["Europe/Copenhagen"],
+    "isSelected": false
+  },
+  {
+    "abbr": "DM",
+    "title": "Dominica",
+    "data": ["America/Dominica"],
+    "isSelected": false
+  },
+  {
+    "abbr": "DO",
+    "title": "Dominican Republic",
+    "data": ["America/Santo_Domingo"],
+    "isSelected": false
+  },
+  {
+    "abbr": "DZ",
+    "title": "Algeria",
+    "data": ["Africa/Algiers"],
+    "isSelected": false
+  },
+  {
+    "abbr": "EC",
+    "title": "Ecuador",
+    "data": ["America/Guayaquil", "Pacific/Galapagos"],
+    "isSelected": false
+  },
+  {
+    "abbr": "EE",
+    "title": "Estonia",
+    "data": ["Europe/Tallinn"],
+    "isSelected": false
+  },
+  {
+    "abbr": "EG",
+    "title": "Egypt",
+    "data": ["Africa/Cairo"],
+    "isSelected": false
+  },
+  {
+    "abbr": "EH",
+    "title": "Western Sahara",
+    "data": ["Africa/El_Aaiun"],
+    "isSelected": false
+  },
+  {
+    "abbr": "ER",
+    "title": "Eritrea",
+    "data": ["Africa/Asmara"],
+    "isSelected": false
+  },
+  {
+    "abbr": "ES",
+    "title": "Spain",
+    "data": ["Europe/Madrid", "Africa/Ceuta", "Atlantic/Canary"],
+    "isSelected": false
+  },
+  {
+    "abbr": "ET",
+    "title": "Ethiopia",
+    "data": ["Africa/Nairobi", "Africa/Addis_Ababa"],
+    "isSelected": false
+  },
+  {
+    "abbr": "FI",
+    "title": "Finland",
+    "data": ["Europe/Helsinki"],
+    "isSelected": false
+  },
+  {
+    "abbr": "FJ",
+    "title": "Fiji",
+    "data": ["Pacific/Fiji"],
+    "isSelected": false
+  },
+  {
+    "abbr": "FK",
+    "title": "Falkland Islands",
+    "data": ["Atlantic/Stanley"],
+    "isSelected": false
+  },
+  {
+    "abbr": "FM",
+    "title": "Micronesia",
+    "data": ["Pacific/Chuuk", "Pacific/Pohnpei", "Pacific/Kosrae"],
+    "isSelected": false
+  },
+  {
+    "abbr": "FO",
+    "title": "Faroe Islands",
+    "data": ["Atlantic/Faroe"],
+    "isSelected": false
+  },
+  {
+    "abbr": "FR",
+    "title": "France",
+    "data": ["Europe/Paris"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GA",
+    "title": "Gabon",
+    "data": ["Africa/Libreville"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GD",
+    "title": "Grenada",
+    "data": ["America/Grenada"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GE",
+    "title": "Georgia",
+    "data": ["Asia/Tbilisi"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GF",
+    "title": "French Guiana",
+    "data": ["America/Cayenne"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GG",
+    "title": "Guernsey",
+    "data": ["Europe/Guernsey"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GH",
+    "title": "Ghana",
+    "data": ["Africa/Accra"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GI",
+    "title": "Gibraltar",
+    "data": ["Europe/Gibraltar"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GL",
+    "title": "Greenland",
+    "data": [
+      "America/Nuuk",
+      "America/Danmarkshavn",
+      "America/Scoresbysund",
+      "America/Thule"
+    ],
+    "isSelected": false
+  },
+  {
+    "abbr": "GM",
+    "title": "Gambia",
+    "data": ["Africa/Banjul"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GN",
+    "title": "Guinea",
+    "data": ["Africa/Conakry"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GP",
+    "title": "Guadeloupe",
+    "data": ["America/Guadeloupe"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GQ",
+    "title": "Equatorial Guinea",
+    "data": ["Africa/Malabo"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GR",
+    "title": "Greece",
+    "data": ["Europe/Athens"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GS",
+    "title": "South Georgia & the South Sandwich Islands",
+    "data": ["Atlantic/South_Georgia"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GT",
+    "title": "Guatemala",
+    "data": ["America/Guatemala"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GU",
+    "title": "Guam",
+    "data": ["Pacific/Guam"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GW",
+    "title": "Guinea-Bissau",
+    "data": ["Africa/Bissau"],
+    "isSelected": false
+  },
+  {
+    "abbr": "GY",
+    "title": "Guyana",
+    "data": ["America/Guyana"],
+    "isSelected": false
+  },
+  {
+    "abbr": "HK",
+    "title": "Hong Kong",
+    "data": ["Asia/Hong_Kong"],
+    "isSelected": false
+  },
+  {
+    "abbr": "HN",
+    "title": "Honduras",
+    "data": ["America/Tegucigalpa"],
+    "isSelected": false
+  },
+  {
+    "abbr": "HR",
+    "title": "Croatia",
+    "data": ["Europe/Zagreb"],
+    "isSelected": false
+  },
+  {
+    "abbr": "HT",
+    "title": "Haiti",
+    "data": ["America/Port-au-Prince"],
+    "isSelected": false
+  },
+  {
+    "abbr": "HU",
+    "title": "Hungary",
+    "data": ["Europe/Budapest"],
+    "isSelected": false
+  },
+  {
+    "abbr": "ID",
+    "title": "Indonesia",
+    "data": [
+      "Asia/Jakarta",
+      "Asia/Pontianak",
+      "Asia/Makassar",
+      "Asia/Jayapura"
+    ],
+    "isSelected": false
+  },
+  {
+    "abbr": "IE",
+    "title": "Ireland",
+    "data": ["Europe/Dublin"],
+    "isSelected": false
+  },
+  {
+    "abbr": "IL",
+    "title": "Israel",
+    "data": ["Asia/Jerusalem"],
+    "isSelected": false
+  },
+  {
+    "abbr": "IM",
+    "title": "Isle of Man",
+    "data": ["Europe/Isle_of_Man"],
+    "isSelected": false
+  },
+  {
+    "abbr": "IN",
+    "title": "India",
+    "data": ["Asia/Kolkata"],
+    "isSelected": true
+  },
+  {
+    "abbr": "IO",
+    "title": "British Indian Ocean Territory",
+    "data": ["Indian/Chagos"],
+    "isSelected": false
+  },
+  {
+    "abbr": "IQ",
+    "title": "Iraq",
+    "data": ["Asia/Baghdad"],
+    "isSelected": false
+  },
+  {
+    "abbr": "IR",
+    "title": "Iran",
+    "data": ["Asia/Tehran"],
+    "isSelected": false
+  },
+  {
+    "abbr": "IS",
+    "title": "Iceland",
+    "data": ["Atlantic/Reykjavik"],
+    "isSelected": false
+  },
+  {
+    "abbr": "JE",
+    "title": "Jersey",
+    "data": ["Europe/London", "Europe/Jersey"],
+    "isSelected": false
+  },
+  {
+    "abbr": "JM",
+    "title": "Jamaica",
+    "data": ["America/Jamaica"],
+    "isSelected": false
+  },
+  {
+    "abbr": "JO",
+    "title": "Jordan",
+    "data": ["Asia/Amman"],
+    "isSelected": false
+  },
+  {
+    "abbr": "JP",
+    "title": "Japan",
+    "data": ["Asia/Tokyo"],
+    "isSelected": false
+  },
+  {
+    "abbr": "KG",
+    "title": "Kyrgyzstan",
+    "data": ["Asia/Bishkek"],
+    "isSelected": false
+  },
+  {
+    "abbr": "KH",
+    "title": "Cambodia",
+    "data": ["Asia/Bangkok", "Asia/Phnom_Penh"],
+    "isSelected": false
+  },
+  {
+    "abbr": "KI",
+    "title": "Kiribati",
+    "data": ["Pacific/Tarawa", "Pacific/Kanton", "Pacific/Kiritimati"],
+    "isSelected": false
+  },
+  {
+    "abbr": "KM",
+    "title": "Comoros",
+    "data": ["Indian/Comoro"],
+    "isSelected": false
+  },
+  {
+    "abbr": "KN",
+    "title": "St Kitts & Nevis",
+    "data": ["America/St_Kitts"],
+    "isSelected": false
+  },
+  {
+    "abbr": "KP",
+    "title": "Korea (North)",
+    "data": ["Asia/Pyongyang"],
+    "isSelected": false
+  },
+  {
+    "abbr": "KR",
+    "title": "Korea (South)",
+    "data": ["Asia/Seoul"],
+    "isSelected": false
+  },
+  {
+    "abbr": "KW",
+    "title": "Kuwait",
+    "data": ["Asia/Riyadh", "Asia/Kuwait"],
+    "isSelected": false
+  },
+  {
+    "abbr": "KY",
+    "title": "Cayman Islands",
+    "data": ["America/Panama", "America/Cayman"],
+    "isSelected": false
+  },
+  {
+    "abbr": "KZ",
+    "title": "Kazakhstan",
+    "data": [
+      "Asia/Almaty",
+      "Asia/Qyzylorda",
+      "Asia/Qostanay",
+      "Asia/Aqtobe",
+      "Asia/Aqtau",
+      "Asia/Atyrau",
+      "Asia/Oral"
+    ],
+    "isSelected": false
+  },
+  {
+    "abbr": "LA",
+    "title": "Laos",
+    "data": ["Asia/Vientiane"],
+    "isSelected": false
+  },
+  {
+    "abbr": "LB",
+    "title": "Lebanon",
+    "data": ["Asia/Beirut"],
+    "isSelected": false
+  },
+  {
+    "abbr": "LC",
+    "title": "St Lucia",
+    "data": ["America/St_Lucia"],
+    "isSelected": false
+  },
+  {
+    "abbr": "LI",
+    "title": "Liechtenstein",
+    "data": ["Europe/Zurich", "Europe/Vaduz"],
+    "isSelected": false
+  },
+  {
+    "abbr": "LK",
+    "title": "Sri Lanka",
+    "data": ["Asia/Colombo"],
+    "isSelected": false
+  },
+  {
+    "abbr": "LR",
+    "title": "Liberia",
+    "data": ["Africa/Monrovia"],
+    "isSelected": false
+  },
+  {
+    "abbr": "LS",
+    "title": "Lesotho",
+    "data": ["Africa/Johannesburg", "Africa/Maseru"],
+    "isSelected": false
+  },
+  {
+    "abbr": "LT",
+    "title": "Lithuania",
+    "data": ["Europe/Vilnius"],
+    "isSelected": false
+  },
+  {
+    "abbr": "LU",
+    "title": "Luxembourg",
+    "data": ["Europe/Luxembourg"],
+    "isSelected": false
+  },
+  {
+    "abbr": "LV",
+    "title": "Latvia",
+    "data": ["Europe/Riga"],
+    "isSelected": false
+  },
+  {
+    "abbr": "LY",
+    "title": "Libya",
+    "data": ["Africa/Tripoli"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MA",
+    "title": "Morocco",
+    "data": ["Africa/Casablanca"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MC",
+    "title": "Monaco",
+    "data": ["Europe/Monaco"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MD",
+    "title": "Moldova",
+    "data": ["Europe/Chisinau"],
+    "isSelected": false
+  },
+  {
+    "abbr": "ME",
+    "title": "Montenegro",
+    "data": ["Europe/Podgorica"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MF",
+    "title": "St Martin (French)",
+    "data": ["America/Marigot"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MG",
+    "title": "Madagascar",
+    "data": ["Indian/Antananarivo"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MH",
+    "title": "Marshall Islands",
+    "data": ["Pacific/Majuro", "Pacific/Kwajalein"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MK",
+    "title": "North Macedonia",
+    "data": ["Europe/Skopje"],
+    "isSelected": false
+  },
+  {
+    "abbr": "ML",
+    "title": "Mali",
+    "data": ["Africa/Bamako"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MM",
+    "title": "Myanmar (Burma)",
+    "data": ["Asia/Yangon"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MN",
+    "title": "Mongolia",
+    "data": ["Asia/Ulaanbaatar", "Asia/Hovd", "Asia/Choibalsan"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MO",
+    "title": "Macau",
+    "data": ["Asia/Macau"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MP",
+    "title": "Northern Mariana Islands",
+    "data": ["Pacific/Guam", "Pacific/Saipan"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MQ",
+    "title": "Martinique",
+    "data": ["America/Martinique"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MR",
+    "title": "Mauritania",
+    "data": ["Africa/Nouakchott"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MS",
+    "title": "Montserrat",
+    "data": ["America/Montserrat"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MT",
+    "title": "Malta",
+    "data": ["Europe/Malta"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MU",
+    "title": "Mauritius",
+    "data": ["Indian/Mauritius"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MV",
+    "title": "Maldives",
+    "data": ["Indian/Maldives"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MW",
+    "title": "Malawi",
+    "data": ["Africa/Blantyre"],
+    "isSelected": false
+  },
+  {
+    "abbr": "MX",
+    "title": "Mexico",
+    "data": [
+      "America/Mexico_City",
+      "America/Cancun",
+      "America/Merida",
+      "America/Monterrey",
+      "America/Matamoros",
+      "America/Mazatlan",
+      "America/Chihuahua",
+      "America/Ojinaga",
+      "America/Hermosillo",
+      "America/Tijuana",
+      "America/Bahia_Banderas"
+    ],
+    "isSelected": false
+  },
+  {
+    "abbr": "MY",
+    "title": "Malaysia",
+    "data": ["Asia/Kuala_Lumpur", "Asia/Kuching", "Asia/Singapore"],
+    "isSelected": false
+  },
+  {
+    "abbr": "NA",
+    "title": "Namibia",
+    "data": ["Africa/Windhoek"],
+    "isSelected": false
+  },
+  {
+    "abbr": "NC",
+    "title": "New Caledonia",
+    "data": ["Pacific/Noumea"],
+    "isSelected": false
+  },
+  {
+    "abbr": "NE",
+    "title": "Niger",
+    "data": ["Africa/Niamey"],
+    "isSelected": false
+  },
+  {
+    "abbr": "NF",
+    "title": "Norfolk Island",
+    "data": ["Pacific/Norfolk"],
+    "isSelected": false
+  },
+
+  {
+    "abbr": "NI",
+    "title": "Nicaragua",
+    "data": ["America/Managua"],
+    "isSelected": false
+  },
+  {
+    "abbr": "NL",
+    "title": "Netherlands",
+    "data": ["Europe/Amsterdam"],
+    "isSelected": false
+  },
+  {
+    "abbr": "NO",
+    "title": "Norway",
+    "data": ["Europe/Oslo"],
+    "isSelected": false
+  },
+  {
+    "abbr": "NP",
+    "title": "Nepal",
+    "data": ["Asia/Kathmandu"],
+    "isSelected": false
+  },
+  {
+    "abbr": "NR",
+    "title": "Nauru",
+    "data": ["Pacific/Nauru"],
+    "isSelected": false
+  },
+  {
+    "abbr": "NU",
+    "title": "Niue",
+    "data": ["Pacific/Niue"],
+    "isSelected": false
+  },
+  {
+    "abbr": "NZ",
+    "title": "New Zealand",
+    "data": ["Pacific/Chatham"],
+    "isSelected": false
+  },
+  {
+    "abbr": "OM",
+    "title": "Oman",
+    "data": ["Asia/Muscat"],
+    "isSelected": false
+  },
+  {
+    "abbr": "PE",
+    "title": "Peru",
+    "data": ["America/Lima"],
+    "isSelected": false
+  },
+  {
+    "abbr": "PF",
+    "title": "French Polynesia",
+    "data": ["Pacific/Tahiti", "Pacific/Marquesas", "Pacific/Gambier"],
+    "isSelected": false
+  },
+  {
+    "abbr": "PG",
+    "title": "Papua New Guinea",
+    "data": ["Pacific/Bougainville"],
+    "isSelected": false
+  },
+  {
+    "abbr": "PH",
+    "title": "Philippines",
+    "data": ["Asia/Manila"],
+    "isSelected": false
+  },
+  {
+    "abbr": "PK",
+    "title": "Pakistan",
+    "data": ["Asia/Karachi"],
+    "isSelected": false
+  },
+  {
+    "abbr": "PL",
+    "title": "Poland",
+    "data": ["Europe/Warsaw"],
+    "isSelected": false
+  },
+  {
+    "abbr": "PM",
+    "title": "St Pierre & Miquelon",
+    "data": ["America/Miquelon"],
+    "isSelected": false
+  },
+  {
+    "abbr": "PN",
+    "title": "Pitcairn",
+    "data": ["Pacific/Pitcairn"],
+    "isSelected": false
+  },
+  {
+    "abbr": "PS",
+    "title": "Palestine",
+    "data": ["Asia/Gaza", "Asia/Hebron"],
+    "isSelected": false
+  },
+  {
+    "abbr": "PT",
+    "title": "Portugal",
+    "data": ["Europe/Lisbon", "Atlantic/Madeira", "Atlantic/Azores"],
+    "isSelected": false
+  },
+  {
+    "abbr": "PW",
+    "title": "Palau",
+    "data": ["Pacific/Palau"],
+    "isSelected": false
+  },
+  {
+    "abbr": "PY",
+    "title": "Paraguay",
+    "data": ["America/Asuncion"],
+    "isSelected": false
+  },
+  {
+    "abbr": "RE",
+    "title": "Réunion",
+    "data": ["Indian/Reunion"],
+    "isSelected": false
+  },
+  {
+    "abbr": "RO",
+    "title": "Romania",
+    "data": ["Europe/Bucharest"],
+    "isSelected": false
+  },
+
+  {
+    "abbr": "RU",
+    "title": "Russia",
+    "data": [
+      "Europe/Kaliningrad",
+      "Europe/Moscow",
+      "Europe/Simferopol",
+      "Europe/Kirov",
+      "Europe/Volgograd",
+      "Europe/Astrakhan",
+      "Europe/Saratov",
+      "Europe/Ulyanovsk",
+      "Europe/Samara",
+      "Asia/Yekaterinburg",
+      "Asia/Omsk",
+      "Asia/Novosibirsk",
+      "Asia/Barnaul",
+      "Asia/Tomsk",
+      "Asia/Novokuznetsk",
+      "Asia/Krasnoyarsk",
+      "Asia/Irkutsk",
+      "Asia/Chita",
+      "Asia/Yakutsk",
+      "Asia/Khandyga",
+      "Asia/Vladivostok",
+      "Asia/Ust-Nera",
+      "Asia/Magadan",
+      "Asia/Sakhalin",
+      "Asia/Srednekolymsk",
+      "Asia/Kamchatka",
+      "Asia/Anadyr"
+    ],
+    "isSelected": false
+  },
+  {
+    "abbr": "RW",
+    "title": "Rwanda",
+    "data": ["Africa/Kigali"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SB",
+    "title": "Solomon Islands",
+    "data": ["Pacific/Guadalcanal"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SC",
+    "title": "Seychelles",
+    "data": ["Indian/Mahe"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SD",
+    "title": "Sudan",
+    "data": ["Africa/Khartoum"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SE",
+    "title": "Sweden",
+    "data": ["Europe/Stockholm"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SG",
+    "title": "Singapore",
+    "data": ["Asia/Singapore"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SH",
+    "title": "St Helena",
+    "data": ["Atlantic/St_Helena"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SI",
+    "title": "Slovenia",
+    "data": ["Europe/Ljubljana"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SJ",
+    "title": "Svalbard & Jan Mayen",
+    "data": ["Europe/Oslo", "Arctic/Longyearbyen"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SK",
+    "title": "Slovakia",
+    "data": ["Europe/Prague", "Europe/Bratislava"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SL",
+    "title": "Sierra Leone",
+    "data": ["Africa/Freetown"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SM",
+    "title": "San Marino",
+    "data": ["Europe/San_Marino"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SN",
+    "title": "Senegal",
+    "data": ["Africa/Dakar"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SO",
+    "title": "Somalia",
+    "data": ["Africa/Mogadishu"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SR",
+    "title": "Surititle",
+    "data": ["America/Paramaribo"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SS",
+    "title": "South Sudan",
+    "data": ["Africa/Juba"],
+    "isSelected": false
+  },
+  {
+    "abbr": "ST",
+    "title": "Sao Tome & Principe",
+    "data": ["Africa/Sao_Tome"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SV",
+    "title": "El Salvador",
+    "data": ["America/El_Salvador"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SX",
+    "title": "St Maarten (Dutch)",
+    "data": ["America/Lower_Princes"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SY",
+    "title": "Syria",
+    "data": ["Asia/Damascus"],
+    "isSelected": false
+  },
+  {
+    "abbr": "SZ",
+    "title": "Eswatini (Swaziland)",
+    "data": ["Africa/Johannesburg", "Africa/Mbabane"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TC",
+    "title": "Turks & Caicos Is",
+    "data": ["America/Grand_Turk"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TD",
+    "title": "Chad",
+    "data": ["Africa/Ndjamena"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TF",
+    "title": "French Southern & Antarctic Lands",
+    "data": ["Indian/Reunion", "Indian/Kerguelen"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TG",
+    "title": "Togo",
+    "data": ["Africa/Lome"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TJ",
+    "title": "Tajikistan",
+    "data": ["Asia/Dushanbe"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TK",
+    "title": "Tokelau",
+    "data": ["Pacific/Fakaofo"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TL",
+    "title": "East Timor",
+    "data": ["Asia/Dili"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TM",
+    "title": "Turkmenistan",
+    "data": ["Asia/Ashgabat"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TN",
+    "title": "Tunisia",
+    "data": ["Africa/Tunis"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TO",
+    "title": "Tonga",
+    "data": ["Pacific/Tongatapu"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TR",
+    "title": "Turkey",
+    "data": ["Europe/Istanbul"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TT",
+    "title": "Trinidad & Tobago",
+    "data": ["America/Port_of_Spain"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TV",
+    "title": "Tuvalu",
+    "data": ["Pacific/Funafuti"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TW",
+    "title": "Taiwan",
+    "data": ["Asia/Taipei"],
+    "isSelected": false
+  },
+  {
+    "abbr": "TZ",
+    "title": "Tanzania",
+    "data": ["Africa/Dar_es_Salaam"],
+    "isSelected": false
+  },
+  {
+    "abbr": "UA",
+    "title": "Ukraine",
+    "data": [
+      "Europe/Simferopol",
+      "Europe/Kiev",
+      "Europe/Uzhgorod",
+      "Europe/Zaporozhye"
+    ],
+    "isSelected": false
+  },
+  {
+    "abbr": "UG",
+    "title": "Uganda",
+    "data": ["Africa/Kampala"],
+    "isSelected": false
+  },
+  {
+    "abbr": "UM",
+    "title": "US minor outlying islands",
+    "data": ["Pacific/Wake", "Pacific/Midway"],
+    "isSelected": false
+  },
+  {
+    "abbr": "US",
+    "title": "United States",
+    "data": [
+      "America/New_York",
+      "America/Detroit",
+      "America/Kentucky/Louisville",
+      "America/Kentucky/Monticello",
+      "America/Indiana/Indianapolis",
+      "America/Indiana/Vincennes",
+      "America/Indiana/Winamac",
+      "America/Indiana/Marengo",
+      "America/Indiana/Petersburg",
+      "America/Indiana/Vevay",
+      "America/Chicago",
+      "America/Indiana/Tell_City",
+      "America/Indiana/Knox",
+      "America/Menominee",
+      "America/North_Dakota/Center",
+      "America/North_Dakota/New_Salem",
+      "America/North_Dakota/Beulah",
+      "America/Denver",
+      "America/Boise",
+      "America/Phoenix",
+      "America/Los_Angeles",
+      "America/Anchorage",
+      "America/Juneau",
+      "America/Sitka",
+      "America/Metlakatla",
+      "America/Yakutat",
+      "America/Nome",
+      "America/Adak",
+      "Pacific/Honolulu"
+    ],
+    "isSelected": false
+  },
+  {
+    "abbr": "UY",
+    "title": "Uruguay",
+    "data": ["America/Montevideo"],
+    "isSelected": false
+  },
+  {
+    "abbr": "UZ",
+    "title": "Uzbekistan",
+    "data": ["Asia/Samarkand", "Asia/Tashkent"],
+    "isSelected": false
+  },
+  {
+    "abbr": "VA",
+    "title": "Vatican City",
+    "data": ["Europe/Rome", "Europe/Vatican"],
+    "isSelected": false
+  },
+  {
+    "abbr": "VC",
+    "title": "St Vincent",
+    "data": ["America/St_Vincent"],
+    "isSelected": false
+  },
+  {
+    "abbr": "VE",
+    "title": "Venezuela",
+    "data": ["America/Caracas"],
+    "isSelected": false
+  },
+  {
+    "abbr": "VG",
+    "title": "Virgin Islands (UK)",
+    "data": ["America/Tortola"],
+    "isSelected": false
+  },
+  {
+    "abbr": "VI",
+    "title": "Virgin Islands (US)",
+    "data": ["America/St_Thomas"],
+    "isSelected": false
+  },
+  {
+    "abbr": "VN",
+    "title": "Vietnam",
+    "data": ["Asia/Ho_Chi_Minh"],
+    "isSelected": false
+  },
+  {
+    "abbr": "VU",
+    "title": "Vanuatu",
+    "data": ["Pacific/Efate"],
+    "isSelected": false
+  },
+  {
+    "abbr": "WF",
+    "title": "Wallis & Futuna",
+    "data": ["Pacific/Wallis"],
+    "isSelected": false
+  },
+  {
+    "abbr": "WS",
+    "title": "Samoa (western)",
+    "data": ["Pacific/Apia"],
+    "isSelected": false
+  },
+  {
+    "abbr": "YE",
+    "title": "Yemen",
+    "data": ["Asia/Aden"],
+    "isSelected": false
+  },
+  {
+    "abbr": "YT",
+    "title": "Mayotte",
+    "data": ["Indian/Mayotte"],
+    "isSelected": false
+  },
+  {
+    "abbr": "ZA",
+    "title": "South Africa",
+    "data": ["Africa/Johannesburg"],
+    "isSelected": false
+  },
+  {
+    "abbr": "ZM",
+    "title": "Zambia",
+    "data": ["Africa/Lusaka"],
+    "isSelected": false
+  },
+  {
+    "abbr": "ZW",
+    "title": "Zimbabwe",
+    "data": ["Africa/Harare"]
+  }
+]

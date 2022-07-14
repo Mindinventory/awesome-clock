@@ -143,5 +143,13 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "react-native-gesture-handler": "^2.5.0",
+    "react-native-reanimated": "^2.9.1",
+    "react-native-svg": "^12.3.0"
+  },
+  "resolutions": {
+    "@types/react": "16.14.26"
   }
 }
