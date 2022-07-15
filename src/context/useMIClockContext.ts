@@ -1,4 +1,4 @@
-import {miStyle} from '../utils/miStyle';
+import { miStyle } from '../utils/miStyle';
 
 export const useMIClockContext = () => {
   return {

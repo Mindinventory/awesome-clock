@@ -1,5 +1,5 @@
-import {StyleSheet} from 'react-native';
-import {Colors} from '../../utils/Colors';
+import { StyleSheet } from 'react-native';
+import { Colors } from '../../utils/Colors';
 
 export const animatedClockViewStyle = StyleSheet.create({
   container: {
@@ -35,7 +35,7 @@ export const animatedClockViewStyle = StyleSheet.create({
     borderRadius: 2,
     borderWidth: 1,
     borderColor: Colors.green,
-    shadowOffset: {width: 0.1, height: 0.1},
+    shadowOffset: { width: 0.1, height: 0.1 },
     shadowColor: Colors.black,
     shadowOpacity: 0.1,
     justifyContent: 'center',
@@ -51,7 +51,7 @@ export const animatedClockViewStyle = StyleSheet.create({
   countryZoneSelectBtn: {
     borderRadius: 2,
     borderWidth: 0.5,
-    shadowOffset: {width: 5, height: 5},
+    shadowOffset: { width: 5, height: 5 },
     shadowColor: Colors.black,
     shadowOpacity: 0.5,
   },
