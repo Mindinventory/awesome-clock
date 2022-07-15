@@ -22,10 +22,11 @@
     "!**/__mocks__"
   ],
   "scripts": {
-    "test": "jest",
+    "test": "yarn prepare && jest",
+    "snapshot-update": "yarn prepare && jest -u",
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "prepare": "bob build && husky install",
+    "prepare": "bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",

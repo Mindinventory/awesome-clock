@@ -1,6 +1,7 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
-
-import AwesomeClock from './AwesomeClock';
-export default AwesomeClock;
+import AnimatedClockView from './components/animatedClock/AnimatedClockView';
+export { AnimatedClockView };
+import type {
+  AnimatedClockViewProps,
+  AnimatedMinuteClockProps,
+} from './components/animatedClock/AnimatedClock.Type';
+export { AnimatedClockViewProps, AnimatedMinuteClockProps };

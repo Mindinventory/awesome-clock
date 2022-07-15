@@ -18,6 +18,7 @@ export interface AnimatedClockViewProps {
   minuteCircleStyles?: ViewStyle;
   hourCircleStyle?: ViewStyle;
   containerStyle?: ViewStyle;
+  countryZoneNameStyle?: ViewStyle;
 }
 export interface AnimatedMinuteClockProps {
   countryZoneName?: countryName;

@@ -16,10 +16,9 @@ import Svg, {
   Stop,
   Use,
 } from 'react-native-svg';
-import { useMIClockContext } from '../../context/useMIClockContext';
-import { Colors } from '../../utils/Colors';
 import type { AnimatedClockViewProps } from './AnimatedClock.Type';
 import { useAnimatedMinuteClock } from './useAnimatedMinuteClock';
+import { useMIClockContext } from '../../context/useMIClockContext';
 
 // assign the animated props to the TextInput component
 type TextInputPropsWithAnimated = TextInputProps & {
@@ -35,7 +34,7 @@ const AnimatedCircle = Animated.createAnimatedComponent(Circle);
 
 const AnimatedClockView = (props: AnimatedClockViewProps) => {
   const circleRef = useRef(null);
-  const { miStyle } = useMIClockContext();
+  const { miStyle, miColor } = useMIClockContext();
   const {
     countryZoneName = 'Asia/Kolkata',
     countryZoneVisible,
@@ -44,14 +43,15 @@ const AnimatedClockView = (props: AnimatedClockViewProps) => {
     containerStyle,
     minuteCircleStyles,
     hourCircleStyle,
-    hourCircleBackgroundColor = Colors.pink,
-    hourTextColor = Colors.white,
-    minuteCircleColor = Colors.pink,
+    hourCircleBackgroundColor = miColor.pink,
+    hourTextColor = miColor.white,
+    minuteCircleColor = miColor.pink,
     minuteTextColor,
-    secondCircleColor = Colors.green,
+    secondCircleColor = miColor.green,
     secondTextColor,
-    gradientLinesColor1 = Colors.red,
-    gradientLinesColor0 = Colors.pink,
+    countryZoneNameStyle,
+    gradientLinesColor1 = miColor.red,
+    gradientLinesColor0 = miColor.pink,
   } = props;
   const {
     circleRadius,
@@ -293,7 +293,9 @@ const AnimatedClockView = (props: AnimatedClockViewProps) => {
       </View>
       {countryZoneVisible ? (
         <>
-          <Text style={styles.countryZoneText}>{countryZoneName}</Text>
+          <Text style={[styles.countryZoneText, countryZoneNameStyle]}>
+            {countryZoneName}
+          </Text>
         </>
       ) : null}
     </View>
@@ -305,7 +307,6 @@ const styles = StyleSheet.create({
   countryZoneText: {
     marginTop: 10,
     fontSize: 15,
-    color: Colors.darkGray,
     textAlign: 'center',
   },
 });

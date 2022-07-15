@@ -1,21 +1,21 @@
 /* eslint-disable react-native/no-inline-styles */
 import { View } from 'react-native';
 import React from 'react';
-import { useMIClockContext } from '../context/useMIClockContext';
-import AnimatedClockView from '../components/AnimatedClock/AnimatedClockView';
+import {
+  AnimatedClockView,
+  AnimatedMinuteClockProps,
+} from '@mindinventory/awesome-clock';
 import { styles } from './MIClockScreen.Style';
-import type { AnimatedMinuteClockProps } from 'src/components/AnimatedClock/AnimatedClock.Type';
 
 const MiClockScreen = (props: AnimatedMinuteClockProps) => {
   const { countryZoneName = 'Asia/Kolkata' } = props;
 
-  const { miStyle } = useMIClockContext();
   const circleSize = 300;
   const smallCircleSize = 150; //change value here
   const clockLinesHeightWidth = smallCircleSize + 25;
 
   return (
-    <View style={[{ flex: 1 }, miStyle.animatedClockViewStyle.container]}>
+    <View style={[{ flex: 1 }, styles.container]}>
       <AnimatedClockView
         circleSize={circleSize}
         minuteCircleStyles={styles.Circle}

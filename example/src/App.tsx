@@ -1,12 +1,12 @@
 import * as React from 'react';
 
 import { StyleSheet, View } from 'react-native';
-import AwesomeClock from '@mindinventory/awesome-clock';
+import MiClockScreen from './screens/MIClockScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <AwesomeClock />
+      <MiClockScreen />
     </View>
   );
 }
