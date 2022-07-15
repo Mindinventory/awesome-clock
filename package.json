@@ -82,14 +82,6 @@
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint && yarn typescript"
-    },
-    "rules": {
-      "camelcase": [
-        "error",
-        {
-          "properties": "never"
-        }
-      ]
     }
   },
   "commitlint": {
@@ -120,6 +112,10 @@
       "@react-native-community",
       "prettier"
     ],
+    "plugins": [
+      "react",
+      "prettier"
+    ],
     "rules": {
       "prettier/prettier": [
         "error",
@@ -129,6 +125,25 @@
           "tabWidth": 2,
           "trailingComma": "es5",
           "useTabs": false
+        }
+      ],
+      "camelcase": [
+        "error",
+        {
+          "properties": "always",
+          "ignoreImports": false,
+          "allow": [
+            "child_process"
+          ]
+        }
+      ],
+      "react/jsx-handler-names": [
+        "error",
+        {
+          "eventHandlerPrefix": "handle",
+          "eventHandlerPropPrefix": "on",
+          "checkLocalVariables": false,
+          "checkInlineFunction": false
         }
       ]
     }
