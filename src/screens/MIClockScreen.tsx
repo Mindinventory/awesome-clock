@@ -25,6 +25,7 @@ const MiClockScreen = (props: AnimatedMinuteClockProps) => {
       />
       <View style={styles.fixClockView}>
         <AnimatedClockView
+          countryZoneName={'Asia/Tokyo'}
           countryZoneVisible={true}
           circleSize={smallCircleSize}
           minuteCircleStyles={styles.Circle}
