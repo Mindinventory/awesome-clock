@@ -1,5 +1,5 @@
-import {useMemo, useEffect} from 'react';
-import {Platform} from 'react-native';
+import { useMemo, useEffect } from 'react';
+import { Platform } from 'react-native';
 import {
   useAnimatedProps,
   useAnimatedStyle,
@@ -11,7 +11,7 @@ import {
 
 export const useAnimatedMinuteClock = (
   circleSize: number,
-  countryZoneName: string,
+  countryZoneName: string
 ) => {
   const date = Date.now();
   const Timer = useSharedValue(date);

@@ -1,5 +1,11 @@
 import React, { useRef } from 'react';
-import { StyleSheet, Text, TextInput, View } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
+  TextInputProps,
+} from 'react-native';
 import Animated from 'react-native-reanimated';
 import Svg, {
   Circle,
@@ -15,8 +21,17 @@ import { Colors } from '../../utils/Colors';
 import type { AnimatedClockViewProps } from './AnimatedClock.Type';
 import { useAnimatedMinuteClock } from './useAnimatedMinuteClock';
 
+// assign the animated props to the TextInput component
+type TextInputPropsWithAnimated = TextInputProps & {
+  animatedProps?: Partial<Omit<TextInputProps, 'children'> & { text?: string }>;
+  text?: string | Animated.Node<string>;
+};
+
+const AnimatedTextInput = Animated.createAnimatedComponent(
+  TextInput
+) as React.ComponentType<TextInputPropsWithAnimated>;
+
 const AnimatedCircle = Animated.createAnimatedComponent(Circle);
-const AnimatedTextInput = Animated.createAnimatedComponent(TextInput);
 
 const AnimatedClockView = (props: AnimatedClockViewProps) => {
   const circleRef = useRef(null);
