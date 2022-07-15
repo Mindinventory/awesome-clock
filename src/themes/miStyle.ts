@@ -1,4 +1,4 @@
-import { animatedClockViewStyle } from '../components/animatedClock';
+import { animatedClockViewStyle } from '../components/AnimatedClock';
 
 export const miStyle = {
   animatedClockViewStyle: animatedClockViewStyle,

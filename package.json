@@ -82,6 +82,14 @@
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint && yarn typescript"
+    },
+    "rules": {
+      "camelcase": [
+        "error",
+        {
+          "properties": "never"
+        }
+      ]
     }
   },
   "commitlint": {
