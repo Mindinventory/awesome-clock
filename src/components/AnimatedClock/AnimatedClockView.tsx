@@ -16,9 +16,9 @@ import Svg, {
   Stop,
   Use,
 } from 'react-native-svg';
-import type { AnimatedClockViewProps } from './AnimatedClock.Type';
 import { useAnimatedMinuteClock } from './useAnimatedMinuteClock';
 import { useMIClockContext } from '../../context/useMIClockContext';
+import type { AnimatedClockViewProps } from './animatedClock.Type';
 
 // assign the animated props to the TextInput component
 type TextInputPropsWithAnimated = TextInputProps & {
