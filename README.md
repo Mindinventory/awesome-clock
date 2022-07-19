@@ -8,7 +8,7 @@
 yarn add @mindinventory/awesome-clock
 ```
 
-## A MIClockView implemented in React Native.
+## A MIClockView implemented in React Native
 
 ```
 <AnimatedClockView
@@ -60,8 +60,10 @@ As you develop your feature, run the example app to test and debug your code.
 
 Once your work is complete, verify that you have met all acceptance criteria on the ticket and have sufficient tests to cover the behavior. Then you may create a pull request back to the develop branch which will be reviewed and subsequently approved and merged.
 
-##### Thanks react-native-reanimated lib for help us to create easy animation in view
+# LICENSE
 
-## License
+React-native-tabbar-interaction is [MIT-licensed](https://github.com/Mindinventory/react-native-awesome-clock/blob/master/LICENSE).
 
-MIT
+# Let us know
+
+We’d be really happy if you send us links to your projects where you use our component. Just send an email to sales@mindinventory.com And do let us know if you have any questions or suggestion regarding our work.
