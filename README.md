@@ -8,6 +8,42 @@ _
 npm install @mindinventory/awesome-clock
 ```
 
+## Implement View
+
+```
+<AnimatedClockView
+          circleSize={300}
+          clockLinesHeightWidth={150 + 25}
+          containerStyle={styles.containerStyle}
+          minuteCircleStyles={styles.minuteCircleStyles}
+          hourCircleStyle={styles.hourCircleStyle}
+          countryZoneVisible={true}
+          countryZoneName={'America/New_York'}
+          hourCircleBackgroundColor="blue"
+          secondCircleColor="grey"
+          minuteCircleColor="blue"
+          gradientLinesColor0="blue"
+          gradientLinesColor1="blue"
+          hourTextColor="white"
+          minuteTextColor="blue"
+        />
+
+export const styles = StyleSheet.create({
+   minuteCircleStyles: {
+    position: 'absolute',
+  },
+  hourCircleStyle: {
+    position: 'absolute',
+  },
+  containerStyle: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginEnd: 20,
+  },
+});
+
+```
+
 # React Native MIClockView
 
 A MIClockView implemented in React Native.
