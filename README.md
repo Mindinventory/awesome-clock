@@ -7,6 +7,11 @@ _
 ```sh
 npm install @mindinventory/awesome-clock
 ```
+or 
+
+```sh
+yarn add @mindinventory/awesome-clock
+```
 
 ## React Native MIClockView
 A MIClockView implemented in React Native.
