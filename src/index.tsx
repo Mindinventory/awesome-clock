@@ -1,7 +1,7 @@
-import AnimatedClockView from './components/animatedClock/animatedClockView';
+import AnimatedClockView from './components/animateClock/animatedClockView';
 export { AnimatedClockView };
 import type {
   AnimatedClockViewProps,
   AnimatedMinuteClockProps,
-} from './components/animatedClock/animatedClock.Type';
+} from './components/animateClock/animatedClock.Type';
 export { AnimatedClockViewProps, AnimatedMinuteClockProps };
