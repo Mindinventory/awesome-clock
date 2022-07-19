@@ -1,22 +1,18 @@
 /* eslint-disable react-native/no-inline-styles */
 import { View } from 'react-native';
 import React from 'react';
-import {
-  AnimatedClockView,
-  AnimatedMinuteClockProps,
-} from '@mindinventory/react-native-awesome-clock';
 import { styles } from './MIClockScreen.Style';
+import { AwesomeClockView } from '@mindinventory/awesome-clock';
 
-const MiClockScreen = (props: AnimatedMinuteClockProps) => {
-  const { countryZoneName = 'Asia/Kolkata' } = props;
-
+const MiClockScreen = () => {
+  const countryZoneName = 'Asia/Kolkata';
   const circleSize = 300;
   const smallCircleSize = 150; //change value here
   const clockLinesHeightWidth = smallCircleSize + 25;
 
   return (
     <View style={[{ flex: 1 }, styles.container]}>
-      <AnimatedClockView
+      <AwesomeClockView
         circleSize={circleSize}
         minuteCircleStyles={styles.Circle}
         hourCircleStyle={styles.centerCircle}
@@ -24,7 +20,7 @@ const MiClockScreen = (props: AnimatedMinuteClockProps) => {
         countryZoneVisible={false}
       />
       <View style={styles.fixClockView}>
-        <AnimatedClockView
+        <AwesomeClockView
           countryZoneName={'Asia/Tokyo'}
           countryZoneVisible={true}
           circleSize={smallCircleSize}
@@ -40,7 +36,7 @@ const MiClockScreen = (props: AnimatedMinuteClockProps) => {
           hourTextColor="white"
           minuteTextColor="blue"
         />
-        <AnimatedClockView
+        <AwesomeClockView
           circleSize={smallCircleSize}
           clockLinesHeightWidth={clockLinesHeightWidth}
           containerStyle={styles.containerStyle2}
