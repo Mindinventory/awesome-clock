@@ -2,7 +2,7 @@
 import { View } from 'react-native';
 import React from 'react';
 import { styles } from './MIClockScreen.Style';
-import { AwesomeClockView } from '@mindinventory/awesome-clock';
+import { AwesomeClockView } from '@mindinventory/react-native-awesome-clock';
 
 const MiClockScreen = () => {
   const countryZoneName = 'Asia/Kolkata';

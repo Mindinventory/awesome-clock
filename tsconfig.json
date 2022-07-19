@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@mindinventory/awesome-clock": ["./src/index"]
+     "@mindinventory/react-native-awesome-clock": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

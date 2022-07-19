@@ -1,4 +1,4 @@
-# @mindinventory/awesome-clock
+# @mindinventory/react-native-awesome-clock
 MindInventory react-native-awesome-clock lib is use for showing awesome UI Clock View into your react-native project.
 
 <a href="url"><img src="https://user-images.githubusercontent.com/87525902/179689424-9137c3f6-5081-43a4-9dc6-6c33949b2739.gif" align="left" height="500" width="250" ></a>
