@@ -8,8 +8,8 @@ _
 npm install @mindinventory/awesome-clock
 ```
 
-## Implement View
-
+## React Native MIClockView
+A MIClockView implemented in React Native.
 ```
 <AnimatedClockView
           circleSize={300}
@@ -44,9 +44,8 @@ export const styles = StyleSheet.create({
 
 ```
 
-# React Native MIClockView
+# MIClockView Props
 
-A MIClockView implemented in React Native.
 
 | Props     |  Type
 | ------------------------ | ---------- |
