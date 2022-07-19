@@ -1,11 +1,12 @@
 # @mindinventory/awesome-clock
+MindInventory react-native-awesome-clock lib is use for showing awesome UI Clock View into your react-native project.
 
 <a href="url"><img src="https://user-images.githubusercontent.com/87525902/179689424-9137c3f6-5081-43a4-9dc6-6c33949b2739.gif" align="left" height="500" width="250" ></a>
 
 ## Installation
 
 ```sh
-yarn add @mindinventory/awesome-clock
+yarn add @mindinventory/react-native-awesome-clock
 ```
 
 ## A MIClockView implemented in React Native
@@ -62,7 +63,7 @@ Once your work is complete, verify that you have met all acceptance criteria on 
 
 # LICENSE
 
-React-native-tabbar-interaction is [MIT-licensed](https://github.com/Mindinventory/react-native-awesome-clock/blob/master/LICENSE).
+React-native-tabbar-interaction is [MIT-licensed](https://github.com/Mindinventory/react-native-awesome-clock/blob/main/LICENSE).
 
 # Let us know
 

@@ -4,7 +4,7 @@ import React from 'react';
 import {
   AnimatedClockView,
   AnimatedMinuteClockProps,
-} from '@mindinventory/awesome-clock';
+} from '@mindinventory/react-native-awesome-clock';
 import { styles } from './MIClockScreen.Style';
 
 const MiClockScreen = (props: AnimatedMinuteClockProps) => {
