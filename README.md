@@ -38,13 +38,13 @@ yarn add @mindinventory/react-native-awesome-clock
 | minuteTextColor    | string| to applying minute text color |
 | gradientLinesColor1            |string | to applying cut clock color for gradient mixture|
 | gradientLinesColor0   | string| to applying cut clock color for gradient mixture|
-| secondCircleColor            | string | to applying secound circle color |
-| secondTextColor      | string | to applying secound text color |
+| secondCircleColor            | string | to applying second circle color |
+| secondTextColor      | string | to applying second text color |
 | circleSize   | number | to main circle size |
 | minuteCircleStyles            | ViewStyle | applying for minute circle style |
-| hourCircleStyle   | ViewStyle | void | applying for hour circle style |
-| countryZoneName             | string | to specified contry wise clock |
-| countryZoneVisible           | boolean | to show/hide contry clock name |
+| hourCircleStyle   | ViewStyle  | applying for hour circle style |
+| countryZoneName             | string | to specified country wise clock |
+| countryZoneVisible           | boolean | to show/hide country clock name |
 | hourCircleBackgroundColor             | string | to applying background color for hour circle |
 | hourTextColor             | number | to applying hour text color |
 | clockLinesHeightWidth             | number | to applying clock line height and width in number|
