@@ -5,6 +5,7 @@ type countryName = 'Asia/Kolkata' | 'America/New_York';
 export interface AnimatedClockViewProps {
   countryZoneName?: string;
   countryZoneVisible?: boolean;
+  countryZoneNameStyle?: ViewStyle;
   circleSize: number;
   minuteCircleColor?: string;
   minuteTextColor?: string;
@@ -18,7 +19,6 @@ export interface AnimatedClockViewProps {
   minuteCircleStyles?: ViewStyle;
   hourCircleStyle?: ViewStyle;
   containerStyle?: ViewStyle;
-  countryZoneNameStyle?: ViewStyle;
 }
 export interface AnimatedMinuteClockProps {
   countryZoneName?: countryName;

@@ -32,6 +32,13 @@ const MiClockScreen = (props: AnimatedMinuteClockProps) => {
           hourCircleStyle={styles.centerCircle}
           clockLinesHeightWidth={clockLinesHeightWidth}
           containerStyle={styles.containerStyle1}
+          hourCircleBackgroundColor="orange"
+          secondCircleColor="grey"
+          minuteCircleColor="orange"
+          gradientLinesColor0="orange"
+          gradientLinesColor1="orange"
+          hourTextColor="white"
+          minuteTextColor="blue"
         />
         <AnimatedClockView
           circleSize={smallCircleSize}
@@ -41,6 +48,13 @@ const MiClockScreen = (props: AnimatedMinuteClockProps) => {
           hourCircleStyle={styles.centerCircle}
           countryZoneVisible={true}
           countryZoneName={'America/New_York'}
+          hourCircleBackgroundColor="blue"
+          secondCircleColor="grey"
+          minuteCircleColor="blue"
+          gradientLinesColor0="blue"
+          gradientLinesColor1="blue"
+          hourTextColor="white"
+          minuteTextColor="blue"
         />
       </View>
     </View>
