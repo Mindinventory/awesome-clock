@@ -5,18 +5,10 @@
 ## Installation
 
 ```sh
-npm install @mindinventory/awesome-clock
-```
-
-or
-
-```sh
 yarn add @mindinventory/awesome-clock
 ```
 
-## React Native MIClockView
-
-A MIClockView implemented in React Native.
+## A MIClockView implemented in React Native.
 
 ```
 <AnimatedClockView
@@ -35,21 +27,6 @@ A MIClockView implemented in React Native.
           hourTextColor="white"
           minuteTextColor="blue"
         />
-
-export const styles = StyleSheet.create({
-   minuteCircleStyles: {
-    position: 'absolute',
-  },
-  hourCircleStyle: {
-    position: 'absolute',
-  },
-  containerStyle: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginEnd: 20,
-  },
-});
-
 ```
 
 # MIClockView Props
