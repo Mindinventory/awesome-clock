@@ -32,24 +32,24 @@ yarn add @mindinventory/react-native-awesome-clock
 
 # MIClockView Props
 
-| Props     |  Type
-| ------------------------ | ---------- |
-| circleSize   | number |
-| minuteCircleStyles            | ViewStyle |
-| hourCircleStyle   | ViewStyle | void |
-| countryZoneName             | string |
-| countryZoneVisible           | boolean |
-| minuteCircleColor          | string  |
-| minuteTextColor    | string|
-| gradientLinesColor1            |string |
-| gradientLinesColor0   | string|
-| secondCircleColor            | string |
-| secondTextColor      | string |
-| hourCircleBackgroundColor             | string |
-| hourTextColor             | number |
-| clockLinesHeightWidth             | number |
-| minuteCircleStyles             | ViewStyle |
-| containerStyle             | ViewStyle |
+| Props     |  Type  |  Description
+| ------------------------ | ---------- | ---------- |
+| minuteCircleColor          | string  | to applying minute circle color |
+| minuteTextColor    | string| to applying minute text color |
+| gradientLinesColor1            |string | to applying cut clock color for gradient mixture|
+| gradientLinesColor0   | string| to applying cut clock color for gradient mixture|
+| secondCircleColor            | string | to applying secound circle color |
+| secondTextColor      | string | to applying secound text color |
+| circleSize   | number | to main circle size |
+| minuteCircleStyles            | ViewStyle | applying for minute circle style |
+| hourCircleStyle   | ViewStyle | void | applying for hour circle style |
+| countryZoneName             | string | to specified contry wise clock |
+| countryZoneVisible           | boolean | to show/hide contry clock name |
+| hourCircleBackgroundColor             | string | to applying background color for hour circle |
+| hourTextColor             | number | to applying hour text color |
+| clockLinesHeightWidth             | number | to applying clock line height and width in number|
+| minuteCircleStyles             | ViewStyle | to applying minute circle additional style|
+| containerStyle             | ViewStyle | to applying main container style|
 
 ## Contributing
 
