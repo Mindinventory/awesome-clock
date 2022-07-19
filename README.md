@@ -50,17 +50,6 @@ yarn add @mindinventory/awesome-clock
 | minuteCircleStyles             | ViewStyle |
 | containerStyle             | ViewStyle |
 
-## Steps to publish RN SDK
-
-1. Create a PR from develop -> main branch and review all the changes going out in this release. **Make sure there are no customer keys
-2. Make sure all feature branches for this release have been merged to develop
-3. contained in the PR**
-4. Merge PR to main
-5. Tag the latest commit on main with the release version eg `0.1.0`
-6. Push tags back to origin: `git push origin main --tags`
-7. Add the external distribution repo (<https://github.com/Mindinventory/react-native-awesome-clock.git>)
-8. Push the tagged commit to the distribution main branch: `git push distribution main --tags`
-  
 ## Contributing
 
 To begin development, clone the project and check out the develop branch.
