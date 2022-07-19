@@ -12,7 +12,7 @@ yarn add @mindinventory/react-native-awesome-clock
 ## A MIClockView implemented in React Native
 
 ```
-<AnimatedClockView
+<AwesomeClockView
           circleSize={300}
           clockLinesHeightWidth={150 + 25}
           containerStyle={styles.containerStyle}
@@ -30,7 +30,7 @@ yarn add @mindinventory/react-native-awesome-clock
         />
 ```
 
-# MIClockView Props
+# AwesomeClockView Props
 
 | Props     |  Type  |  Description
 | ------------------------ | ---------- | ---------- |
