@@ -61,10 +61,15 @@ As you develop your feature, run the example app to test and debug your code.
 
 Once your work is complete, verify that you have met all acceptance criteria on the ticket and have sufficient tests to cover the behavior. Then you may create a pull request back to the develop branch which will be reviewed and subsequently approved and merged.
 
-# LICENSE
+## LICENSE
 
-React-native-tabbar-interaction is [MIT-licensed](https://github.com/Mindinventory/react-native-awesome-clock/blob/main/LICENSE).
+MIClockView is [MIT-licensed](https://github.com/Mindinventory/react-native-awesome-clock/blob/main/LICENSE).
 
-# Let us know
+# Let us know!
 
-We’d be really happy if you send us links to your projects where you use our component. Just send an email to sales@mindinventory.com And do let us know if you have any questions or suggestion regarding our work.
+If you use our open-source libraries in your project, please make sure to credit us and Give a star to https://www.mindinventory.com
+
+<p><h4>Please feel free to use this component and Let us know if you are interested to building Apps or Designing Products.</h4>
+<a href="https://www.mindinventory.com/contact-us.php?utm_source=gthb&utm_medium=repo&utm_campaign=rMIStoryView" target="__blank">
+<img src="https://github.com/Sammindinventory/MindInventory/blob/main/hirebutton.png" width="203" height="43"  alt="app development">
+</a>
