@@ -1,6 +1,6 @@
 {
   "name": "@mindinventory/react-native-awesome-clock",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "MindInventory react-native-awesome-clock lib is use for showing awesome UI Clock View into your react-native project.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
