@@ -1,6 +1,6 @@
 # AwesomeClockView [![](https://img.shields.io/npm/v/@mindinventory/react-native-awesome-clock.svg)](https://www.npmjs.com/package/@mindinventory/react-native-awesome-clock) ![@mindinventory/React Native Awesome Clock Top Language](https://img.shields.io/github/languages/top/Mindinventory/react-native-awesome-clock) ![@mindinventory/React Native Awesome Clock TypeScript](https://badgen.net/npm/types/tslib) ![@mindinventory/React Native Awesome Clock License](https://img.shields.io/github/license/mindinventory/react-native-awesome-clock) ![IOS](https://img.shields.io/badge/IOS-9cf)  ![Android](https://img.shields.io/badge/Android-green)
 
-MindInventory react-native-awesome-clock lib is use for showing awesome UI Clock View into your react-native project :heart_eyes: :star_struck:.
+MindInventory ```react-native-awesome-clock``` package can be used to show this awesome Clock UI in your react-native projects.
 
 ![ezgif-5-e5f8a9e428](https://user-images.githubusercontent.com/87525902/181426102-61d69a91-922f-45ef-aebb-0a087894e6ad.gif)
 
