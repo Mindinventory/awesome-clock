@@ -37,13 +37,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://git.mindinventory.com/react-native/libs/awesomemiclock.git",
-  "author": "Premshankar Shah <premshankar.shah@mindinventory.com> (https://git.mindinventory.com/MI-411)",
+  "repository": "https://github.com/Mindinventory/awesome-clock",
+  "author": "Mindinventory",
   "license": "MIT",
   "bugs": {
-    "url": "https://git.mindinventory.com/react-native/libs/awesomemiclock.git/issues"
+    "url": "https://github.com/Mindinventory/awesome-clock/issues"
   },
-  "homepage": "https://git.mindinventory.com/react-native/libs/awesomemiclock.git#readme",
+  "homepage": "https://github.com/Mindinventory/awesome-clock#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
