@@ -6,7 +6,6 @@ MindInventory react-native-awesome-clock lib is use for showing awesome UI Clock
 
 ![ezgif-5-120ce533d0](https://user-images.githubusercontent.com/87525902/181426355-eb55b0e1-dc2e-484f-8675-f699e61bea80.gif)
 
-
 ## Installation
 
 you can install the library using either yarn:
@@ -86,9 +85,9 @@ It would be very helpful for us, if the reporter can share the below things to u
 
 AwesomeClockView is [MIT-licensed](https://github.com/Mindinventory/react-native-awesome-clock/blob/main/LICENSE).
 
-# Let us know!
+# Let us know
 
-If you use our open-source libraries in your project, please make sure to credit us and Give a star to https://www.mindinventory.com
+If you use our open-source libraries in your project, please make sure to credit us and Give a star to <https://www.mindinventory.com>
 
 <p><h4>Please feel free to use this component and Let us know if you are interested to building Apps or Designing Products.</h4>
 <a href="https://www.mindinventory.com/contact-us.php?utm_source=gthb&utm_medium=repo&utm_campaign=rMIClockView" target="__blank">
