@@ -1,4 +1,3 @@
-/* eslint-disable react-native/no-inline-styles */
 import { View } from 'react-native';
 import React from 'react';
 import { styles } from './MIClockScreen.Style';
