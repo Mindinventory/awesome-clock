@@ -1,6 +1,6 @@
 {
-  "name": "@mindinventory/awesome-clock-example",
-  "description": "Example app for @mindinventory/awesome-clock",
+  "name": "@mindinventory/react-native-awesome-clock-example",
+  "description": "Example app for @mindinventory/react-native-awesome-clock",
   "version": "0.0.1",
   "private": true,
   "scripts": {

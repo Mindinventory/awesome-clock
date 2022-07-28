@@ -14,9 +14,9 @@ export const useAnimatedMinuteClock = (
   countryZoneName: string
 ) => {
   const date = Date.now();
-  const Timer = useSharedValue(date);
-  const RotateSec = useSharedValue(0);
-  const RotateMin = useSharedValue(0);
+  const timer = useSharedValue(date);
+  const rotateSec = useSharedValue(0);
+  const rotateMin = useSharedValue(0);
 
   const initAngle = 270;
   const minuteDegreeInit = 278;
@@ -62,18 +62,18 @@ export const useAnimatedMinuteClock = (
   const milliSecondIndicatorPosition = circleRadius - circleSize / 80;
 
   useEffect(() => {
-    let timer: NodeJS.Timer | undefined;
-    timer = setInterval(() => {
-      Timer.value = Date.now();
+    let timerDate: NodeJS.Timer | undefined;
+    timerDate = setInterval(() => {
+      timer.value = Date.now();
     }, 500);
 
     return () => {
-      !!timer && clearInterval(timer);
+      !!timerDate && clearInterval(timerDate);
     };
-  }, [Timer]);
+  }, [timer]);
 
   const derivedValue = useDerivedValue(() => {
-    const currentTime = new Date(Timer.value);
+    const currentTime = new Date(timer.value);
     const newDate = new Date();
 
     const currentTimeHours = newDate.toLocaleString('en-US', {
@@ -145,18 +145,18 @@ export const useAnimatedMinuteClock = (
       radiusForSecText * Math.sin(milliSecondIndicatorAngle);
 
     if (rotationDegreeForSecond === 278) {
-      RotateSec.value = degreeForSecond;
+      rotateSec.value = degreeForSecond;
     } else {
-      RotateSec.value = withTiming(rotationDegreeForSecond, {
+      rotateSec.value = withTiming(rotationDegreeForSecond, {
         duration: 1000,
         easing: Easing.linear,
       });
     }
 
     if (rotationDegreeForMinute === 278) {
-      RotateMin.value = degreeForMin;
+      rotateMin.value = degreeForMin;
     } else {
-      RotateMin.value = withTiming(rotationDegreeForMinute, {
+      rotateMin.value = withTiming(rotationDegreeForMinute, {
         duration: 1000,
         easing: Easing.linear,
       });
@@ -182,20 +182,20 @@ export const useAnimatedMinuteClock = (
       secondDegreeInit,
       secondDegree,
     };
-  }, [Timer, countryZoneName]);
+  }, [timer, countryZoneName]);
 
   //animated Text Props value change
   const animatedSecondPropsText = useAnimatedProps(() => {
     return {
       text: `${derivedValue.value.second.toString()}`.padStart(2, '0'),
     };
-  }, [Timer]);
+  }, [timer]);
 
   const animatedMinutePropsText = useAnimatedProps(() => {
     return {
       text: `${derivedValue.value.minute.toString()}`.padStart(2, '0'),
     };
-  }, [Timer]);
+  }, [timer]);
 
   const animatedHourPropsText = useAnimatedProps(() => {
     const text =
@@ -205,7 +205,7 @@ export const useAnimatedMinuteClock = (
     return {
       text: text,
     };
-  }, [Timer]);
+  }, [timer]);
 
   //animated style Props value change
   const minuteDuration = 1000;
@@ -230,7 +230,7 @@ export const useAnimatedMinuteClock = (
         },
       ],
     };
-  }, [Timer]);
+  }, [timer]);
 
   const secondDuration = Platform.OS === 'ios' ? 1090 : 1000;
   const animatedSecondTextStyle = useAnimatedStyle(() => {
@@ -253,12 +253,12 @@ export const useAnimatedMinuteClock = (
         },
       ],
     };
-  }, [Timer]);
+  }, [timer]);
 
   const animatedStyles = useAnimatedStyle(() => ({
     transform: [
       {
-        rotate: RotateSec.value >= 630 ? '278deg' : `${RotateSec.value}deg`,
+        rotate: rotateSec.value >= 630 ? '278deg' : `${rotateSec.value}deg`,
       },
     ],
   }));
@@ -266,7 +266,7 @@ export const useAnimatedMinuteClock = (
   const animatedMiniuteStyles = useAnimatedStyle(() => ({
     transform: [
       {
-        rotate: RotateMin.value >= 630 ? '278deg' : `${RotateMin.value}deg`,
+        rotate: rotateMin.value >= 630 ? '278deg' : `${rotateMin.value}deg`,
       },
     ],
   }));
@@ -299,9 +299,9 @@ export const useAnimatedMinuteClock = (
       circleSecondRadius,
       radiusForSecText,
       milliSecondIndicatorPosition,
-      Timer,
-      RotateSec,
-      RotateMin,
+      timer,
+      rotateSec,
+      rotateMin,
       animatedMinuteTextStyle,
       animatedSecondTextStyle,
       animatedMiniuteStyles,
@@ -311,9 +311,9 @@ export const useAnimatedMinuteClock = (
       animatedSecondPropsText,
     };
   }, [
-    RotateMin,
-    RotateSec,
-    Timer,
+    rotateMin,
+    rotateSec,
+    timer,
     animatedHourPropsText,
     animatedMiniuteStyles,
     animatedMinutePropsText,
